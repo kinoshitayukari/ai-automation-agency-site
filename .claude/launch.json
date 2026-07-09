@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "ai-automation-agency-site",
+      "runtimeExecutable": "npx",
+      "runtimeArgs": ["serve", "-l", "3060", "."],
+      "port": 3060
+    }
+  ]
+}
