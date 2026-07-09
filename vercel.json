@@ -1,5 +1,5 @@
 {
   "cleanUrls": true,
   "trailingSlash": false,
-  "outputDirectory": "public"
+  "buildCommand": "mkdir -p .vercel/output/static && cp -R public/. .vercel/output/static/ && printf '{\"version\":3}' > .vercel/output/config.json"
 }
