@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI Ops Lab | 生成AI業務効率化代行サービス</title>
+<meta name="description" content="生成AIを活用した業務効率化・自動化の設計から運用までを代行するAI Ops Lab。定型業務の自動化、社内AI導入支援、業務プロセスのAI化をワンストップで支援します。">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&family=Zen+Maru+Gothic:wght@500;700;900&family=Quicksand:wght@500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="bg-orbs" aria-hidden="true">
+  <span class="orb orb-1"></span>
+  <span class="orb orb-2"></span>
+  <span class="orb orb-3"></span>
+</div>
+
+<header class="site-header" id="top">
+  <div class="container header-inner">
+    <a href="#top" class="logo">
+      <span class="logo-mark">AI</span>
+      <span class="logo-text">Ops Lab</span>
+    </a>
+    <nav class="nav-desktop">
+      <a href="#services">サービス</a>
+      <a href="#flow">導入の流れ</a>
+      <a href="#works">導入実績</a>
+      <a href="#pricing">料金プラン</a>
+      <a href="#faq">よくある質問</a>
+    </nav>
+    <a href="#contact" class="btn btn-primary btn-header">無料相談を予約する</a>
+    <button class="nav-toggle" id="navToggle" aria-label="メニューを開く" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+  <nav class="nav-mobile" id="navMobile">
+    <a href="#services">サービス</a>
+    <a href="#flow">導入の流れ</a>
+    <a href="#works">導入実績</a>
+    <a href="#pricing">料金プラン</a>
+    <a href="#faq">よくある質問</a>
+    <a href="#contact" class="btn btn-primary">無料相談を予約する</a>
+  </nav>
+</header>
+
+<main>
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-deco" aria-hidden="true">
+      <span class="deco-blob deco-blob-1"></span>
+      <span class="deco-blob deco-blob-2"></span>
+      <span class="deco-blob deco-blob-3"></span>
+      <span class="deco-ring"></span>
+      <span class="deco-dots"></span>
+    </div>
+    <div class="container hero-inner">
+      <p class="eyebrow reveal">GENERATIVE AI BUSINESS AUTOMATION</p>
+      <h1 class="reveal">
+        生成AIで、<br>
+        <span class="text-gradient">面倒な業務</span>を<br>
+        まるごと代行します。
+      </h1>
+      <p class="hero-lead reveal">
+        資料作成、問い合わせ対応、データ入力、議事録作成、リサーチ業務…。
+        AI Ops Labが要件定義から自動化フローの構築・運用保守までワンストップで担い、
+        御社の"時間"を取り戻します。
+      </p>
+      <div class="hero-cta reveal">
+        <a href="#contact" class="btn btn-primary btn-lg">無料で業務診断を受ける</a>
+        <a href="#services" class="btn btn-ghost btn-lg">サービス内容を見る</a>
+      </div>
+      <div class="hero-stats reveal">
+        <div class="stat">
+          <span class="stat-num" data-count="87">0</span><span class="stat-suffix">%</span>
+          <span class="stat-label">平均業務時間削減率</span>
+        </div>
+        <div class="stat">
+          <span class="stat-num" data-count="120">0</span><span class="stat-suffix">社+</span>
+          <span class="stat-label">導入実績</span>
+        </div>
+        <div class="stat">
+          <span class="stat-num" data-count="14">0</span><span class="stat-suffix">日</span>
+          <span class="stat-label">最短導入期間</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- LOGOS -->
+  <section class="logos">
+    <div class="container">
+      <p class="logos-label">様々な業種のお客様に導入いただいています</p>
+      <div class="logos-row">
+        <span>製造業</span><span>士業</span><span>不動産</span><span>ECサイト</span>
+        <span>人材紹介</span><span>医療・クリニック</span><span>広告代理店</span><span>物流</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROBLEMS -->
+  <section class="problems">
+    <div class="container">
+      <h2 class="section-title reveal">こんなお悩み、ありませんか？</h2>
+      <div class="problem-grid">
+        <div class="problem-card reveal">
+          <span class="p-icon">⏰</span>
+          <h3>単純作業に時間を取られている</h3>
+          <p>データ入力・転記・資料作成など、AIで代替できる業務に多くの工数を割いている。</p>
+        </div>
+        <div class="problem-card reveal">
+          <span class="p-icon">🧩</span>
+          <h3>AI導入したいが何から始めれば</h3>
+          <p>ChatGPTは使っているが、業務プロセス全体を自動化する具体策がわからない。</p>
+        </div>
+        <div class="problem-card reveal">
+          <span class="p-icon">🧑‍💻</span>
+          <h3>エンジニアがいない・採用できない</h3>
+          <p>社内にAI・IT人材がおらず、外部に任せられる業者を探している。</p>
+        </div>
+        <div class="problem-card reveal">
+          <span class="p-icon">💸</span>
+          <h3>ツール導入コストが見合わない</h3>
+          <p>高額な業務システムより、必要な範囲だけ低コストでAI化したい。</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- REASON -->
+  <section class="reason">
+    <div class="container split">
+      <div class="split-media reveal">
+        <img src="assets/automation-consulting-japan.png" alt="AI自動化フローを説明するコンサルタント" loading="lazy">
+      </div>
+      <div class="split-body reveal">
+        <p class="eyebrow">WHY US</p>
+        <h2 class="section-title">"作って終わり"にしない、<br>伴走型のAI導入支援</h2>
+        <p class="section-lead">
+          ツールを導入するだけでは業務は変わりません。AI Ops Labは業務の棚卸しから一緒に行い、
+          現場に定着するまで伴走します。
+        </p>
+        <ul class="check-list">
+          <li>
+            <strong>専門用語を使わない丁寧なヒアリング</strong>
+            <span>AIの知識ゼロでもOK。業務の話をするだけで、自動化ポイントを私たちが見つけます。</span>
+          </li>
+          <li>
+            <strong>要件定義から運用まで完全代行</strong>
+            <span>設計・開発・テスト・運用保守まで、社内にエンジニアがいなくても導入できます。</span>
+          </li>
+          <li>
+            <strong>費用対効果を数字で見える化</strong>
+            <span>削減時間・コストを毎月レポート。効果が見えるから、社内稟議も通しやすい。</span>
+          </li>
+        </ul>
+        <a href="#contact" class="btn btn-primary">まずは無料で相談する</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section class="services" id="services">
+    <div class="container">
+      <p class="eyebrow center reveal">SERVICES</p>
+      <h2 class="section-title center reveal">サービス内容</h2>
+      <p class="section-lead center reveal">御社の業務内容をヒアリングし、最適な生成AI活用方法をご提案。設計・開発・運用まで一気通貫で代行します。</p>
+
+      <div class="service-grid">
+        <div class="service-card reveal">
+          <div class="service-num">01</div>
+          <h3>定型業務の自動化</h3>
+          <p>データ入力、請求書処理、レポート作成、メール対応など、繰り返し業務をAIエージェント化して自動処理します。</p>
+          <ul>
+            <li>RPA × 生成AIによる自動化フロー構築</li>
+            <li>Excel / スプレッドシート連携</li>
+            <li>Slack・Chatwork・Teams連携</li>
+          </ul>
+        </div>
+        <div class="service-card reveal">
+          <div class="service-num">02</div>
+          <h3>社内向けAIチャットボット構築</h3>
+          <p>社内規定・マニュアル・FAQをAIに学習させ、問い合わせ対応を自動化。社員の"聞く手間"をゼロにします。</p>
+          <ul>
+            <li>社内ナレッジ検索AI</li>
+            <li>カスタマーサポート自動応答</li>
+            <li>多言語対応チャットボット</li>
+          </ul>
+        </div>
+        <div class="service-card reveal">
+          <div class="service-num">03</div>
+          <h3>コンテンツ・資料生成の代行</h3>
+          <p>提案資料、議事録、SNS投稿、メルマガなどのドラフトをAIが自動生成。確認・編集だけで業務完了。</p>
+          <ul>
+            <li>議事録・要約の自動作成</li>
+            <li>提案書・レポート自動生成</li>
+            <li>マーケティングコンテンツ制作</li>
+          </ul>
+        </div>
+        <div class="service-card reveal">
+          <div class="service-num">04</div>
+          <h3>業務プロセス設計・AI導入コンサル</h3>
+          <p>どこをAI化すべきかの業務棚卸しから、ツール選定・費用対効果の試算まで伴走支援します。</p>
+          <ul>
+            <li>業務フロー可視化・診断</li>
+            <li>ROIシミュレーション</li>
+            <li>社内AI活用ガイドライン策定</li>
+          </ul>
+        </div>
+        <div class="service-card reveal">
+          <div class="service-num">05</div>
+          <h3>カスタムAIエージェント開発</h3>
+          <p>API連携・社内データベース接続を伴う、業務特化型のAIエージェントをオーダーメイドで開発します。</p>
+          <ul>
+            <li>社内システムとのAPI連携</li>
+            <li>複数ステップの自動判断フロー</li>
+            <li>セキュアなプライベートAI環境構築</li>
+          </ul>
+        </div>
+        <div class="service-card reveal">
+          <div class="service-num">06</div>
+          <h3>運用保守・継続改善</h3>
+          <p>導入後も稼働状況をモニタリングし、精度改善・機能追加を継続的に代行。安心の月額運用サポート。</p>
+          <ul>
+            <li>月次レポーティング</li>
+            <li>プロンプト・モデル改善</li>
+            <li>障害時の即時サポート</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FLOW -->
+  <section class="flow" id="flow">
+    <div class="container">
+      <p class="eyebrow center reveal">FLOW</p>
+      <h2 class="section-title center reveal">ご導入までの流れ</h2>
+
+      <div class="flow-steps">
+        <div class="flow-step reveal">
+          <div class="flow-step-num">1</div>
+          <h3>無料ヒアリング</h3>
+          <p>現状の業務内容・課題感をヒアリング。AI化できるポイントを洗い出します。</p>
+        </div>
+        <div class="flow-step reveal">
+          <div class="flow-step-num">2</div>
+          <h3>業務診断・ご提案</h3>
+          <p>自動化の効果試算とともに、最適なAI活用プランをご提案します。</p>
+        </div>
+        <div class="flow-step reveal">
+          <div class="flow-step-num">3</div>
+          <h3>設計・開発</h3>
+          <p>要件に基づきAIワークフローを構築。最短2週間からのスピード導入。</p>
+        </div>
+        <div class="flow-step reveal">
+          <div class="flow-step-num">4</div>
+          <h3>テスト運用</h3>
+          <p>実業務データで検証を行い、精度・運用フローを調整します。</p>
+        </div>
+        <div class="flow-step reveal">
+          <div class="flow-step-num">5</div>
+          <h3>本番導入・運用サポート</h3>
+          <p>本稼働後も継続的にモニタリング・改善を代行し、成果を最大化します。</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- WORKS / RESULTS -->
+  <section class="works" id="works">
+    <div class="container">
+      <div class="split split-reverse works-intro">
+        <div class="split-media reveal">
+          <img src="assets/automation-results-team-japan.png" alt="日本人チームがAI自動化の運用ダッシュボードを確認している様子" loading="lazy">
+        </div>
+        <div class="split-body reveal">
+          <p class="eyebrow">CASE STUDIES</p>
+          <h2 class="section-title">成果は、数字で。</h2>
+          <p class="section-lead">
+            導入後は削減時間・処理件数・エラー率をダッシュボードで見える化。
+            「なんとなく便利」ではなく、経営判断に使える数字で成果をご報告します。
+          </p>
+          <div class="works-stats">
+            <div class="stat">
+              <span class="stat-num" data-count="87">0</span><span class="stat-suffix">%</span>
+              <span class="stat-label">平均業務時間削減率</span>
+            </div>
+            <div class="stat">
+              <span class="stat-num" data-count="96">0</span><span class="stat-suffix">%</span>
+              <span class="stat-label">継続利用率</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="works-grid">
+        <div class="work-card reveal">
+          <span class="work-tag">士業事務所</span>
+          <h3>問い合わせ対応時間を月80時間削減</h3>
+          <p>顧客からの定型質問をAIチャットボットが一次対応。担当者は専門判断のみに集中できるように。</p>
+          <div class="work-metric">削減率 <strong>82%</strong></div>
+        </div>
+        <div class="work-card reveal">
+          <span class="work-tag">ECサイト運営</span>
+          <h3>商品説明文・広告文の作成を全自動化</h3>
+          <p>新商品登録時の説明文・SNS投稿文をAIが自動生成し、人はチェックのみに。制作リードタイムを大幅短縮。</p>
+          <div class="work-metric">制作時間 <strong>1/5</strong>に短縮</div>
+        </div>
+        <div class="work-card reveal">
+          <span class="work-tag">不動産会社</span>
+          <h3>物件情報の入力・議事録作成を自動化</h3>
+          <p>内見後の商談メモをAIが要約・データベース化。営業担当の事務作業をほぼゼロに。</p>
+          <div class="work-metric">残業時間 <strong>月45h→8h</strong></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PRICING -->
+  <section class="pricing" id="pricing">
+    <div class="container">
+      <p class="eyebrow center reveal">PRICING</p>
+      <h2 class="section-title center reveal">料金プラン</h2>
+      <p class="section-lead center reveal">業務範囲・自動化する工程に応じて柔軟にプランをご用意しています。まずは無料診断でお見積りします。</p>
+
+      <div class="pricing-grid">
+        <div class="price-card reveal">
+          <h3>スタート</h3>
+          <p class="price-desc">単一業務のAI自動化から始めたい方に</p>
+          <div class="price"><span class="price-num">¥98,000</span><span class="price-unit">/ 月〜</span></div>
+          <ul>
+            <li>業務1〜2工程の自動化</li>
+            <li>簡易チャットボット導入</li>
+            <li>月次簡易レポート</li>
+            <li>メールサポート</li>
+          </ul>
+          <a href="#contact" class="btn btn-outline">このプランで相談する</a>
+        </div>
+        <div class="price-card featured reveal">
+          <span class="price-badge">人気No.1</span>
+          <h3>スタンダード</h3>
+          <p class="price-desc">複数業務をまとめて自動化したい方に</p>
+          <div class="price"><span class="price-num">¥298,000</span><span class="price-unit">/ 月〜</span></div>
+          <ul>
+            <li>業務3〜5工程の自動化</li>
+            <li>社内向けAIエージェント構築</li>
+            <li>外部システム連携</li>
+            <li>月次改善ミーティング</li>
+            <li>チャット・電話サポート</li>
+          </ul>
+          <a href="#contact" class="btn btn-primary">このプランで相談する</a>
+        </div>
+        <div class="price-card reveal">
+          <h3>エンタープライズ</h3>
+          <p class="price-desc">全社規模でAI活用を推進したい方に</p>
+          <div class="price"><span class="price-num">要見積</span></div>
+          <ul>
+            <li>全社業務プロセスの設計から代行</li>
+            <li>カスタムAIエージェント開発</li>
+            <li>専任担当者によるフル伴走</li>
+            <li>セキュリティ・社内規定対応</li>
+            <li>24時間サポート体制</li>
+          </ul>
+          <a href="#contact" class="btn btn-outline">このプランで相談する</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- VOICE -->
+  <section class="voice">
+    <div class="container">
+      <p class="eyebrow center reveal">VOICE</p>
+      <h2 class="section-title center reveal">お客様の声</h2>
+      <div class="voice-grid">
+        <blockquote class="voice-card reveal">
+          <p>「何から手をつければいいか分からなかったAI導入を、ヒアリングから丁寧に伴走してもらえました。今では議事録作成が完全に自動化されています。」</p>
+          <footer>製造業 / 経営企画部</footer>
+        </blockquote>
+        <blockquote class="voice-card reveal">
+          <p>「社内にエンジニアがいなくても、専門用語なしで分かりやすく提案してもらえたのが決め手でした。導入後のサポートも手厚いです。」</p>
+          <footer>人材紹介業 / 代表取締役</footer>
+        </blockquote>
+        <blockquote class="voice-card reveal">
+          <p>「問い合わせ対応の自動化により、スタッフはより付加価値の高い業務に集中できるようになりました。想像以上の効果です。」</p>
+          <footer>士業事務所 / 事務長</footer>
+        </blockquote>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="faq" id="faq">
+    <div class="container">
+      <p class="eyebrow center reveal">FAQ</p>
+      <h2 class="section-title center reveal">よくある質問</h2>
+
+      <div class="faq-list">
+        <details class="faq-item reveal" open>
+          <summary>AIの知識が全くありませんが依頼できますか？</summary>
+          <p>もちろん可能です。専門知識は不要で、業務内容をヒアリングした上で最適なご提案からサポートいたします。導入後の操作もシンプルに設計します。</p>
+        </details>
+        <details class="faq-item reveal">
+          <summary>導入までどれくらいの期間がかかりますか？</summary>
+          <p>業務の範囲によりますが、最短2週間からのスピード導入が可能です。複雑な業務プロセスの場合は1〜3ヶ月ほどお時間をいただく場合があります。</p>
+        </details>
+        <details class="faq-item reveal">
+          <summary>セキュリティや機密情報の扱いは大丈夫ですか？</summary>
+          <p>秘密保持契約（NDA）を締結の上で対応し、必要に応じてプライベートなAI環境の構築も可能です。機密データを外部AIに送信しない設計もご相談いただけます。</p>
+        </details>
+        <details class="faq-item reveal">
+          <summary>途中でプラン変更や解約はできますか？</summary>
+          <p>月単位でのプラン変更が可能です。解約についても契約内容に応じて柔軟に対応しておりますので、担当者までご相談ください。</p>
+        </details>
+        <details class="faq-item reveal">
+          <summary>既存の業務システムと連携できますか？</summary>
+          <p>API連携が可能なシステムであれば多くの場合連携できます。事前のヒアリングで連携可否・方法をご案内いたします。</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="contact" id="contact">
+    <div class="container contact-inner">
+      <div class="contact-text reveal">
+        <p class="eyebrow">CONTACT</p>
+        <h2 class="section-title">まずは無料の業務診断から</h2>
+        <p class="section-lead">
+          「AIで何が自動化できるか分からない」という段階からで大丈夫です。
+          専門スタッフが御社の業務を丁寧にヒアリングし、最適な自動化プランをご提案します。
+        </p>
+        <ul class="contact-points">
+          <li>✅ 相談・お見積りは完全無料</li>
+          <li>✅ 導入を強要する営業は一切なし</li>
+          <li>✅ オンライン面談で全国対応可能</li>
+        </ul>
+      </div>
+
+      <form class="contact-form reveal" id="contactForm">
+        <div class="form-row">
+          <label>
+            お名前<span class="req">必須</span>
+            <input type="text" name="name" required placeholder="山田 太郎">
+          </label>
+          <label>
+            会社名
+            <input type="text" name="company" placeholder="株式会社〇〇">
+          </label>
+        </div>
+        <div class="form-row">
+          <label>
+            メールアドレス<span class="req">必須</span>
+            <input type="email" name="email" required placeholder="you@example.com">
+          </label>
+          <label>
+            電話番号
+            <input type="tel" name="tel" placeholder="090-0000-0000">
+          </label>
+        </div>
+        <label>
+          ご相談内容<span class="req">必須</span>
+          <textarea name="message" rows="4" required placeholder="自動化したい業務や、現在お困りのことをご記入ください"></textarea>
+        </label>
+        <button type="submit" class="btn btn-primary btn-lg btn-submit">この内容で送信する</button>
+        <p class="form-note" id="formNote">送信後、担当者より2営業日以内にご連絡いたします。</p>
+      </form>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <div class="footer-brand">
+      <a href="#top" class="logo">
+        <span class="logo-mark">AI</span>
+        <span class="logo-text">Ops Lab</span>
+      </a>
+      <p>生成AIを活用した業務効率化代行サービス。<br>御社の"できたらいいな"を、最短で実現します。</p>
+    </div>
+    <div class="footer-links">
+      <div>
+        <h4>サービス</h4>
+        <a href="#services">定型業務の自動化</a>
+        <a href="#services">AIチャットボット構築</a>
+        <a href="#services">コンテンツ生成代行</a>
+        <a href="#services">AI導入コンサル</a>
+      </div>
+      <div>
+        <h4>会社情報</h4>
+        <a href="#flow">導入の流れ</a>
+        <a href="#works">導入実績</a>
+        <a href="#pricing">料金プラン</a>
+        <a href="#faq">よくある質問</a>
+      </div>
+      <div>
+        <h4>お問い合わせ</h4>
+        <a href="#contact">無料相談を予約する</a>
+        <a href="mailto:info@ai-opslab.example.com">info@ai-opslab.example.com</a>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>© 2026 AI Ops Lab. All rights reserved.</p>
+  </div>
+</footer>
+
+<button class="scroll-top" id="scrollTop" aria-label="トップへ戻る">↑</button>
+
+<script src="script.js"></script>
+</body>
+</html>
