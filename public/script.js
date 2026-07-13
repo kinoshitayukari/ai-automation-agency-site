@@ -60,12 +60,17 @@ scrollTopBtn.addEventListener('click', () => {
   window.scrollTo({ top: 0, behavior: 'smooth' });
 });
 
-// Contact form (no backend — demo confirmation only)
+// Contact form: open the visitor's email app with the form details filled in.
 const contactForm = document.getElementById('contactForm');
 const formNote = document.getElementById('formNote');
 contactForm.addEventListener('submit', (e) => {
   e.preventDefault();
-  formNote.textContent = 'お問い合わせありがとうございます。担当者より2営業日以内にご連絡いたします。';
+  const data = new FormData(contactForm);
+  const subject = encodeURIComponent(`【AI Ops Lab 無料相談】${data.get('name')}様`);
+  const body = encodeURIComponent(
+    `お名前: ${data.get('name')}\n会社名: ${data.get('company') || '未記入'}\nメール: ${data.get('email')}\n電話番号: ${data.get('tel') || '未記入'}\n\nご相談内容:\n${data.get('message')}`
+  );
+  formNote.textContent = 'メール作成画面を開きます。内容を確認して送信してください。';
   formNote.classList.add('success');
-  contactForm.reset();
+  window.location.href = `mailto:kinoshitayukari18@gmail.com?subject=${subject}&body=${body}`;
 });
